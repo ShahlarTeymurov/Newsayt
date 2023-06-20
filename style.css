@@ -8,12 +8,14 @@ header {
   padding: 20px 0 17px;
 }
 header h1 {
-  cursor: pointer;
   font-size: 17px;
   font-weight: 700;
 }
 header h1:hover {
   color: #0b62e6;
+}
+header .btn, header .icon, header i, header h4, header h1, header a {
+  cursor: pointer;
 }
 header .menu nav a {
   padding-right: 15px;
@@ -22,9 +24,6 @@ header .menu nav a {
 }
 header .menu nav a:hover {
   opacity: 0.7;
-}
-header .menu .btn, header .menu .icon, header .menu i, header .menu h4, header .menu a {
-  cursor: pointer;
 }
 header .menu .btn {
   background-color: #0b62e6;
