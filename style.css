@@ -46,4 +46,22 @@ header .menu .btn .icon i {
 }
 header .menu .btn:hover {
   background-color: #3e2fc9;
+}
+
+#app {
+  padding: 50px 0;
+}
+#app .minibox {
+  width: 334px;
+}
+#app .minibox h1 {
+  font-weight: 700;
+  font-size: 70px;
+  margin-bottom: 23px;
+}
+#app .minibox p {
+  color: #6c757d;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */
