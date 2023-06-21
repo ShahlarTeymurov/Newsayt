@@ -63,5 +63,15 @@ header .menu .btn:hover {
   color: #6c757d;
   font-size: 20px;
   line-height: 1.4;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+#app .box .imgbox {
+  width: 145px;
+  margin-right: 15px;
+}
+#app .box .imgbox img {
+  cursor: pointer;
+}
+#app .back {
+  background-color: #b61fd4;
 }/*# sourceMappingURL=style.css.map */
