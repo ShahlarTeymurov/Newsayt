@@ -74,4 +74,20 @@ header .menu .btn:hover {
 }
 #app .back {
   background-color: #b61fd4;
+}
+
+#single {
+  padding: 70px 0;
+  background-color: #5f29c4;
+}
+#single .textbox p {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 30px;
+  position: relative;
+}
+#single .textbox .imgbox {
+  position: absolute;
+  left: 44%;
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */
