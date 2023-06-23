@@ -90,4 +90,12 @@ header .menu .btn:hover {
   position: absolute;
   left: 44%;
   width: 100px;
+}
+
+#features {
+  padding: 50px 0;
+}
+#features .box .icon {
+  font-size: 60px;
+  color: #d22cd8;
 }/*# sourceMappingURL=style.css.map */
