@@ -12,8 +12,26 @@
             line-height: 1.4
             margin-bottom: 50px
     .box
+        display: flex
         .imgbox
             width: 145px
             margin-right: 15px
             img
                 cursor: pointer
+
+    @media screen and ( max-width: 992px )
+        .minibox
+            h1
+                font-size: 50px
+    @media screen and ( max-width: 768px )
+        .minibox
+            text-align: center
+            display: flex
+            flex-direction: column
+            width: 516px
+        .box
+            flex-direction: column
+            align-items: center
+            margin-bottom: 20px
+        .imgbox
+            width: 500px

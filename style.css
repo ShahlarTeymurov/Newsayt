@@ -65,12 +65,36 @@ header .menu .btn:hover {
   line-height: 1.4;
   margin-bottom: 50px;
 }
+#app .box {
+  display: flex;
+}
 #app .box .imgbox {
   width: 145px;
   margin-right: 15px;
 }
 #app .box .imgbox img {
   cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  #app .minibox h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #app .minibox {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 516px;
+  }
+  #app .box {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #app .imgbox {
+    width: 500px;
+  }
 }
 
 #single {
