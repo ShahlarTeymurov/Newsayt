@@ -92,8 +92,19 @@ header .menu .btn:hover {
     align-items: center;
     margin-bottom: 20px;
   }
+  #app .box .imgbox {
+    margin-bottom: 15px;
+  }
   #app .imgbox {
     width: 500px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #app .minibox h1 {
+    font-size: 40px;
+  }
+  #app .minibox p {
+    font-size: 18px;
   }
 }
 
