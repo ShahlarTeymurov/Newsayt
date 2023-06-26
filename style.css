@@ -185,4 +185,21 @@ header .menu .btn:hover {
 }
 #design .imgbox img {
   border-radius: 50%;
+}
+@media screen and (max-width: 992px) {
+  #design .minibox h1 {
+    font-size: 40px;
+  }
+  #design .minibox p {
+    font-size: 20px;
+  }
+  #design .imgbox {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #design .minibox {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
