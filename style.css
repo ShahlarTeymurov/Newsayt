@@ -161,4 +161,28 @@ header .menu .btn:hover {
   line-height: 1.4;
   font-size: 17px;
   opacity: 0.8;
+}
+
+#design {
+  padding: 50px 0;
+  background-color: rgb(248, 249, 250);
+}
+#design .minibox {
+  width: 295px;
+}
+#design .minibox h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#design .minibox p {
+  opacity: 0.7;
+  line-height: 1.4;
+  font-size: 22px;
+}
+#design .imgbox {
+  width: 425px;
+}
+#design .imgbox img {
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
