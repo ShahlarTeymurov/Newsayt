@@ -203,4 +203,18 @@ header .menu .btn:hover {
     text-align: center;
     margin-bottom: 20px;
   }
+}
+@media screen and (max-width: 576px) {
+  #design .minibox {
+    width: 400px;
+  }
+  #design .minibox h1 {
+    font-size: 30px;
+  }
+  #design .minibox p {
+    font-size: 16px;
+  }
+  #design .imgbox {
+    width: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */
